@@ -27,8 +27,7 @@ func(a *aboutMe) Code () {
 }
 
 func(a *aboutMe) ArchTech() {
-    fmt.Println("AWS, microservices, K8s, Jenkins, gitops, Express.js, GRPC,
-    REST")
+    fmt.Println("AWS, microservices, K8s, Jenkins, gitops, Express.js, GRPC, REST")
 }
 
 func main() {
