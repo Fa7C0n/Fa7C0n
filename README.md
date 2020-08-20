@@ -18,8 +18,24 @@ func(a *aboutMe) Job (year int) {
     }
 }
 
+func(a *aboutMe) Pronoun () {
+    fmt.Println("He|Him")
+}
+
+func(a *aboutMe) Code () {
+    fmt.Println("Go, NodeJS, Python")
+}
+
+func(a *aboutMe) ArchTech() {
+    fmt.Println("AWS, microservices, K8s, Jenkins, gitops, Express.js, GRPC,
+    REST")
+}
+
 func main() {
     aboutGokul := aboutMe{}
     aboutGokul.Job(2020)
+    aboutGokul.Pronoun()
+    aboutGokul.Code()
+    aboutGokul.ArchTech()
 }
 ```
